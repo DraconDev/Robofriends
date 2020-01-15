@@ -1,11 +1,31 @@
-import React from "react";
+import React, { Component } from "react";
 import CardList from "./CardList";
 import {
     robots
   } from "./robots";
-  
-const App = () => {
+import SearchBox from "./SearchBox"
+
+// const App = () => {
+//     return (
+//         <div>
+//         <h1>RoboFriends</h1>
+//         <SearchBox/>
+//          <CardList robots={robots}/>
+//          </div>
+//     )
+// }
+
+class App extends Component {
+  render () {
     return (
-         <CardList robots={robots}/>
-    )
+      <div>
+      <h1>RoboFriends</h1>
+      <SearchBox/>
+       <CardList robots={robots}/>
+       </div>
+  )
+
+  }
 }
+
+export default App;
