@@ -15,7 +15,11 @@ code {
 }
 
 .title {
-  font-size: 3vw;
+  font-size: 6vh;
   color: #8000ff;
+  text-align: center;
+}
+
+.pa2 {
   text-align: center;
 }
